@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Card, Button } from 'react-bootstrap';
-
+//Importa o CSS
 import './styles.css'
 //componente do card
 const CardMovie: React.FC = () => {
