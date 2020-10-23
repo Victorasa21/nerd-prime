@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import Movies from '../pages/Movies';
 import Profile from '../pages/Profile';
 
+//cria roteamento para os filmes e seus detalhes
 const Routes: React.FC = () => (
   <Switch>
     <Route path="/" exact component={Movies} />
